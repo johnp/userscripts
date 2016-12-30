@@ -32,9 +32,15 @@ GM_addStyle("html{scroll-behavior:smooth;} .active{background-color:#dedede;}");
     let posts = document.getElementsByTagName('li');
     for (let i = 0; i < posts.length; i++) {
         let post = posts[i];
-        let link = post.firstChild;
-        post.id = link.href.split('=').pop();
-        post.addEventListener('click', onClick.bind(post));
+        // find permalink
+        for (let j = 0; j < post.children.length; j++) {
+            let link = post.children.item(j);
+            if (link.href && link.href.includes('?ts=')) {
+                post.id = link.href.split('=').pop();
+                post.addEventListener('click', onClick.bind(post));
+                break; // inner
+            }
+        }
     }
 
     if (window.location.hash) {
