@@ -56,8 +56,6 @@ GM_addStyle("html{scroll-behavior:smooth;} .active{background-color:#dedede;}");
 
 // listen to changes to the url anchor hash
 window.onhashchange = function (event) {
-    event.preventDefault();
-
     let old_hash = event.oldURL.split('#').pop();
     if (old_hash) {
         let previous = document.getElementById(old_hash);
