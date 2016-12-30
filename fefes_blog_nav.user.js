@@ -6,7 +6,7 @@
 // @description Navigate blog.fefe.de using post anchors and url hash identifiers
 // @domain      blog.fefe.de
 // @include     /^https?://blog\.fefe\.de/((\?|#).*)?$/
-// @version     2.0
+// @version     2.0.1
 // @grant       GM_addStyle
 // @run-at      document-idle
 // @homepage    https://github.com/johnp/userscripts
