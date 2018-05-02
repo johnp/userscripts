@@ -2,6 +2,11 @@
 
 A small collection of userscripts to enhance the browsing experience on various sites.
 
+### Uni Bamberg VC Auto-Login
+Simply automatically redirects from a slow loading intermediary page to the SSO provider quickly.  
+Only provides true auto-login in combination with a password-manager with auto-fill/-click enabled.
+
+
 #### Hacker News Submitter Highlight
 Makes the submitters name more apparent when scrolling through comments.
 

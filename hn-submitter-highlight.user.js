@@ -4,13 +4,13 @@
 // @author      Johannes Pfrang <johannespfrang@gmail.com>
 // @namespace   https://github.com/johnp
 // @description Makes the submitters name more apparent when scrolling through comments.
-// @domain      news.ycombinator.com
 // @include     /^https?://news\.ycombinator\.com/item\?.*$/
-// @version     2.0
+// @version     2.1
 // @grant       none
 // @run-at      document-idle
-// @homepage    https://github.com/johnp/userscripts
+// @homepageURL https://github.com/johnp/userscripts
 // @supportURL  https://github.com/johnp/userscripts/issues
+// @updateURL   https://github.com/johnp/userscripts/raw/master/hn-submitter-highlight.user.js
 // @license     MIT
 // ==/UserScript==
 "use strict";
